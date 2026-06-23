@@ -12,6 +12,7 @@
     "db:seed": "tsx src/server/db/seed.ts"
   },
   "dependencies": {
+    "@supabase/server": "^1.1.0",
     "bullmq": "^5.34.2",
     "ioredis": "^5.4.2",
     "jose": "^5.9.6",
