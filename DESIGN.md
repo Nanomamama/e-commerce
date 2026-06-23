@@ -81,12 +81,12 @@
 - `verifyAuthToken(token)`: ตรวจ JWT
 - `requireAuth(request)`: อ่าน token จาก request และคืน current user
 - `requireAdmin(request)`: ตรวจว่า user เป็น admin
-- `refreshToken(token)`: ต่ออายุ token ถ้ารองรับ refresh flow
+- `refreshToken(token)`: ต่ออายุ token ถ้ารองรับ refresh fl
 - `forgotPassword(email)`: เริ่ม flow reset password
 - `resetPassword(token, newPassword)`: ตั้ง password ใหม่
 
 #### Address Service
-
+ow
 - `createAddress(userId, input)`: เพิ่มที่อยู่
 - `listAddresses(userId)`: รายการที่อยู่ของ user
 - `getAddress(userId, addressId)`: ดึงที่อยู่รายตัว
